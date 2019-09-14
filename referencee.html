@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+var questions=["What color is sky?","How do you spell 2?", "Whats the last letter of alphabet"];
+var choices=["yellow, blue, green","three, four, two","x, a, z, t"];
+var answers=["blue","two","z"];
+var choicelist;
+for(var i=0;i<1;i++){
+// for(var i=0;i<questions.length;i++){
+//  for(var c=0;c<choices[i].length;c++){
+//      choicelist+=choices[i];
+//     }
+var choicelist=choices[i].split(", ");
+console.log("choicelist="+choicelist);
+var radioButtonsHtml;
+for(var c=0;c<choicelist.length;c++){
+console.log("choicelist2="+choicelist[c]);
+radioButtonsHtml+="<input type=\"radio\" name=\"choice\" id=\""+choicelist[c]+"\">"+choicelist[c];
+}
+addToDiv="Question : "+questions[i] +"<br>";
+addToDiv+="Choices : "+choices[i]+"<br>";
+addToDiv+="Choicelist : "+choicelist+"<br>";
+addToDiv+="The right answer = "+answers[i]+"<BR>";
+document.getElementById("questionDiv").innerHTML=addToDiv+radioButtonsHtml;
+}
+        
+        </script>
+</body>
+</html>
