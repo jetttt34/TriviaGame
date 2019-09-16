@@ -2,11 +2,15 @@
     color: white;
     text-align: center;
     font-size: 30px;
-    background: rgba(138, 105, 8, 0.411);
+    /* background: rgba(138, 105, 8, 0.411); */
     width: 65%;
     margin-left: 225px;
     height: 50px;
     padding-top: 6px;
+}
+
+h3{
+    /* background: rgba(138, 105, 8, 0.411); */
 }
 
 .navbar{
@@ -42,3 +46,13 @@
 #hotfix{
     color: black !important;
 }
+
+#questionDiv{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    /* background: rgba(138, 105, 8, 0.411); */
+    width: 100%;
+    font-weight: bold;
+}
+
