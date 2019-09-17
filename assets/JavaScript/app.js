@@ -22,10 +22,6 @@ var questions = [{
       answers:['Qui-Gon Jinn' , 'Yoda' , 'Luke Skywalker' , 'Obi-wan'],
       correctAnswer: 'Obi-wan'
    }, {
-      question: 'What is the name of Han Solo\'s ship',
-      answers:['Soulless One' , 'Death Star' , 'Millennium Falcon' , 'Eclipse'],
-      correctAnswer: 'Millennium Falcon'
-      }, {
       question: 'What was the name of Darth Vaders flag ship?',
       answers:['Eclipse' , 'The Executor' , 'The vigilance' , 'The Devastator'],
       correctAnswer: 'The Executor'
