@@ -15,7 +15,7 @@ var questions = [{
    correctAnswer: 'Darth Vader'
    }, {
    question: 'What planet does Yoda go into excile on?',
-   answers:['Taatoie' , 'Degaboth' , 'Corasont' , 'YavinIV'],
+   answers:['Tatooine' , 'Degaboth' , 'Coruscant' , 'YavinIV'],
    correctAnswer: 'Degaboth'
    },{
       question: 'Who killed the first Sith in a thousand years?',
